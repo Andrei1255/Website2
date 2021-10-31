@@ -1,0 +1,4 @@
+Student name: Andrei Putzlacher
+Student number: 688708
+Student class: Inf 1C
+URL student GitHub repository: https://github.com/Andrei1255/website
