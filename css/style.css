@@ -1,0 +1,528 @@
+body {
+	background-color: #b0e7ff;
+	margin: 0;
+}
+
+.begin {
+	border-bottom-color: black;
+	border-bottom-style: double;
+	border-bottom-width: 2px;
+	background-image: url(../images/banner.jpg);
+	background-size: 1700px 282px;
+	background-position: center -50px;
+}
+
+.begin img {
+	background-color: rgba(0, 87, 194, 0.5);
+	border-radius: 10px;
+}
+
+.begin-content {
+	display: flex;
+	border-bottom: 1px solid rgba(43, 43, 43, 0.25);
+	border-bottom-style: dashed;
+}
+
+.begin-content .nav-menu {
+	display: flex;
+	margin-top: 10px;
+	list-style-type: none;
+	overflow: auto;
+}
+
+.begin-content .nav-menu li {
+	margin-left: 13px;
+}
+
+.begin-content .nav-menu li a {
+	background-color: rgba(240, 240, 240, 0.8);
+	font-size: 24px;
+	border: 1px solid #454545;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 0px 7px 0px 7px;
+	list-style-type: none;
+	width: 250px;
+	text-align: center;
+	display: inline-block;
+}
+
+.begin h1 {
+	color: #f5f5f5;
+	font-family: "Segoe Print";
+	font-size: 28px;
+	letter-spacing: 2px;
+}
+
+.begin h2 {
+	color: #f5f5f5;
+	font-family: "Segoe Print";
+	font-size: 20px;
+}
+
+.begin-content .nav-menu li a:hover {
+	background-color: rgba(240, 240, 240, 1.0);
+	color: #333333;
+}
+
+.begin-content .nav-menu li a:active {
+	background-color: rgba(225, 225, 225, 1.0);
+	color: #333333;
+}
+
+.begin-content .nav-menu li a {
+	color: black;
+	text-decoration: none;
+	font-family: "Lucida Console";
+}
+
+.page-title {
+	margin: auto;
+	width: 430px;
+	text-align: center; 
+	background-color: rgba(20, 20, 20, 0.4);
+	border-radius: 15px;
+	text-shadow: 1px 0px 2px rgba(150, 150, 150, 1);
+}
+
+
+
+ .homepage-video {
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.homepage-main-content {
+	margin: 35px 25px 30px 25px;
+	min-height: 600px;
+	background-color: rgba(87, 204, 255, 0.75);
+	border-radius: 30px;
+	box-shadow: 0px 0px 20px 10px rgba(87,204,255,0.8);
+}
+
+.homepage-main-content article {
+	margin: 10px 0px 0px 25px;
+	padding-bottom: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 500px;
+	background-color: rgba(250, 250, 250, 0.6);	
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.homepage-main-content article h2 {
+	border-bottom: 1px solid grey;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	font-family: "Trebuchet MS";
+}
+
+.homepage-main-content article .article-content {
+	padding: 10px;
+	margin-top: -35px;
+	font-family: "Candara";
+	font-size: 16px;
+	font-weight: normal;
+	word-spacing: 2px;
+}
+
+.homepage-main-content article .article-content figure {
+	float: right;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.homepage-main-content article .article-content img {
+	width: 300px;
+	height: 200px;
+	border-radius: 3px;
+	transition: width 0.4s, height 0.4s;
+}
+
+.homepage-main-content article .article-content img:hover {
+	width: 310px;
+	height: 230px;
+}
+
+.homepage-main-content article .article-content img:active {
+	width: 460px;
+	height: 300px;
+}
+
+.homepage-main-content article .article-content figcaption {
+	font-size: 12px; 
+	margin-top: -4px;
+}
+
+.homepage-main-content article .article-content strong a {
+	color: black;
+	font-size: 24px;	
+}
+
+.homepage-main-content article .article-content strong a:hover {
+	color: #1187ba;
+}
+
+
+.home-aside {
+	display: flex;
+	position: fixed;
+	background-color: rgba(250, 250, 250, 0.8);
+	right: 0;
+  	top: 20%;
+	border: 1px solid rgba(150, 150, 150, 0.8);
+	transition: width 0.5s;
+}
+
+.home-aside:hover .aside-content {
+	width: 300px;   /* Show the aside */
+}
+
+.home-aside .aside-content {
+	margin-top: -10px;
+	font-family: "Copperplate";
+	width: 0px;
+	transition: width 0.5s;
+}
+
+.home-aside .aside-content li {
+	background-color: rgba(220, 220, 220, 0.6);
+	border: 1px solid rgba(200, 200, 200, 0.6);
+	border-radius: 4px;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+	width: 230px;
+}
+
+.home-aside .aside-content li p {
+	margin: 5px;
+}
+
+.home-aside .aside-title {
+	writing-mode: vertical-rl;
+	margin-right: 0;
+	margin-left: 7px;
+	padding-right: 3px;
+	font-family: "Segoe UI";
+	font-size: 20px;
+	text-align: center;
+	border-right: 1px solid rgba(150, 150, 150, 0.4);
+}
+
+.home-aside .aside-item-details {
+	font-size: 14px;
+}
+
+
+
+ .bestdest-main-content {
+	margin-left: auto;
+    	margin-right: auto;
+	margin-top: 25px;
+	min-height: 600px;
+	max-width: 1300px;
+}
+
+.bestdest-main-content table {
+	border-spacing: 0;
+	table-layout: fixed ;
+  	width: 100%;
+	color: #00134d;
+}
+
+.bestdest-main-content tr {
+	border: 1px solid black;
+	background-color: rgba(250, 250, 250, 0.6);	
+	text-align: center;
+}
+
+.bestdest-main-content th {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: "Trebuchet MS";
+	font-size: 22px;
+	border: 2px solid #9fc2d1;
+	border-bottom: 0;
+	border-radius: 5px;
+}
+
+.bestdest-main-content td {
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+	font-family: "Candara";
+	word-spacing: 2px;
+	border: 1px solid #9fc2d1;
+	border-radius: 5px;
+}
+
+
+.bestdest-aside {
+	display: flex;
+}
+
+.bestdest-aside figure {
+	background-position: center;
+	background-size: cover;
+	border: 1.3px solid black;
+	border-radius: 1px;
+	padding: 70px 0px 70px 0px;
+	margin: 0;
+	flex: 1;
+	height: 186px;
+	display: flex;
+	flex-direction: column; /* make the container flex */
+	transition: all 0.25s;
+}
+
+.bestdest-aside	figure:hover {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.bestdest-aside	.figure1 {
+	background-image: url("../images/zanzibar.jpg");
+}
+
+.bestdest-aside	.figure2 {
+	background-image: url("../images/tenerife.jpg"); 
+}
+
+.bestdest-aside	.figure3 {
+	background-image: url("../images/tromso.jpg"); 
+}
+
+@media (max-width: 1179px) {
+	.begin {
+		max-width: 1179px;
+	}
+
+	.bestdest-aside .figure3 {
+		display: none;
+	}
+}
+
+.bestdest-aside	.figure1 a , .bestdest-aside .figure2 a , .bestdest-aside .figure3 a {
+	border: 2px solid #111111;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+	margin-left: 170px;
+	margin-right: 170px;
+	margin-top: 70px;
+	color: #DDDDDD;
+	font-size: 22px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	font-family: "Verdana";
+	transition: all 0.25s;
+}
+
+.bestdest-aside	figure a:hover {
+	padding: 15px;
+	margin: 65px 160px 0px 160px;
+	font-size: 28px;
+}
+
+
+
+
+
+
+ .tickets-main-content {
+	margin-top: 25px;
+	height: 930px;
+	width: 1000px;
+	
+}
+
+.tickets-main-content table {
+	margin-left: 30px;
+	border-spacing: 0;
+	table-layout: fixed;
+	height: 650px;
+	width: 1000px;
+	font-family: "Trebuchet MS";
+}
+
+.tickets-main-content tr {
+	border: 1px solid black;
+	background-color: rgba(250, 250, 250, 0.6);	
+	text-align: center;
+}
+
+.tickets-main-content th {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 18px;
+	border: 2px solid #9fc2d1;
+	border-radius: 5px;
+	color: #00134d;
+}
+
+.tickets-main-content td {
+	padding: 0px 12px 5px 12px;
+	font-size: 16px;
+	border: 1px solid #9fc2d1;
+	border-radius: 5px;
+	color: #48526b;
+}
+
+.tickets-main-content p {
+	font-family: "Candara";
+	text-align: center;
+}
+
+.tickets-aside {
+	margin-left: 100px;
+	top: 260px;
+}
+
+
+.tickets-aside figure {
+	margin: 0px 0px 2px 50px;
+	background-position: center;
+	background-size: cover;
+	border: 1.3px solid black;
+	border-radius: 1px;
+	flex: 1;
+	width: 400px;
+	height: 300px;
+	display: flex;
+	flex-direction: column; /* make the container flex */
+	transition: all 0.25s;
+}
+
+.tickets-aside figure:hover {
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.tickets-aside	.figure1 {
+	background-image: url("../images/zanzibar.jpg");
+	position: absolute;
+	right: 0;
+	top: 260px;
+}
+
+.tickets-aside	.figure2 {
+	background-image: url("../images/tenerife.jpg");
+	position: absolute;
+	right: 0;
+	top: 570px;
+}
+
+.tickets-aside	.figure3 {
+	background-image: url("../images/tromso.jpg");
+	position: absolute;
+	right: 0;
+	top: 880px;
+}
+
+.tickets-aside	.figure1 a , .tickets-aside .figure2 a , .tickets-aside .figure3 a {
+	border: 2px solid #111111;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+	margin: auto;
+	color: #DDDDDD;
+	font-size: 22px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	font-family: "Verdana";
+	text-decoration: none;
+	transition: all 0.25s;
+}
+
+.tickets-aside	figure a:hover {
+	padding: 15px;
+	font-size: 28px;
+}
+
+
+.contact-main-content {
+	margin-left: auto;
+    	margin-right: auto;
+	margin-top: 25px;
+	height: 930px;
+	max-width: 1100px;	
+}
+
+
+.contact-form {
+	padding: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: rgba(250, 250, 250, 0.6);
+	font-family: "Trebuchet MS";
+	width: 550px;
+}
+
+.contact-form legend {
+	font-size: 20px;
+}
+
+.contact-form label {
+	padding-right: 10px;
+}
+
+.contact-form input , .contact-form textarea {
+	margin-bottom: 5px;
+	display: block;
+}
+
+.contact-form textarea {
+	width: 300px;
+	height: 100px;
+}
+
+.contact-form .submit-button {
+	height: 30px;
+	margin-top: 30px;
+	padding: 5px 10px 5px 10px;
+	background-color: rgba(135, 222, 164, 0.5);
+	font-family: "Courier";
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	border-width: 1px;
+	border-radius: 15px;
+	border-style: groove;
+	border-color: rgba(80, 80, 80, 0.8);
+}
+
+.contact-form .submit-button:hover {
+	background-color: rgba(135, 222, 164, 0.75);
+}
+
+.contact-form .submit-button:active {
+	background-color: rgba(135, 222, 164, 1);
+	box-shadow: inset 0px 0px 6px -1px rgba(0,0,0,0.9);
+}
+
+
+
+.cookie-aside {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #FA0;
+	opacity: 0.5;
+	padding: 10px 15px 10px 15px;
+	color: #FFF;
+	font-size: 18px;
+}
+
+.copyright-info {
+	margin-top: 15px; 
+	font-size: 18px;
+	border-top: 1px solid rgba(50, 50, 50, 0.15);
+	padding-top: 15px;
+	padding-left: 15px;
+}
